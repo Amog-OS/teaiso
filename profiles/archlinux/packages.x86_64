@@ -1,0 +1,6 @@
+base
+grub
+linux
+mkinitcpio
+mkinitcpio-archiso
+arch-install-scripts

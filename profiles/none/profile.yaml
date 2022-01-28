@@ -1,0 +1,16 @@
+name: none
+distro: none
+codename: none
+publisher: None OS <https://example.org>
+label: NONE_TEAISO
+application_id: None OS
+airootfs_directory: airootfs
+#iso_merge: iso_merge
+arch: x86_64
+grub_cfg: grub.cfg
+packages:
+ - packages.x86_64
+file_permissions:
+ - /etc/shadow|0:0:400
+#customize_airootfs:
+# - customize-airootfs.sh
